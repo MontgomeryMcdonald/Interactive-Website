@@ -1,0 +1,111 @@
+@keyframes expanded{
+    from{font-size: medium;}
+    to{font-size: larger;}
+}
+@keyframes darkMode{
+    from{background-color: white;}
+    to{background-color: black;}
+    from{color: black;}
+    to{color: white;}
+}
+@keyframes highlight{
+    from{text-decoration: none;}
+    to{text-decoration: underline}
+    from{font-weight: normal;}
+    to{font-weight: bold;}
+}
+@keyframes rotate{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(15deg);}
+}
+
+
+header{
+    background-color: #444;
+    color: #fff;
+}
+
+main{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+footer{
+    background-color: #444;
+    color: #fff;
+    gap: 5px;
+    width: 100%;
+}
+
+.scheme1{
+    background-color: yellow;
+    color: violet;
+}
+.scheme2{
+    background-color: orange;
+    color: blueviolet;
+}
+.scheme3{
+    background-color: orange;
+    color: blue;
+}
+.scheme4{
+    background-color: orangered;
+    color: #3d7837;
+}
+.scheme5{
+    background-color: black;
+    color: orange;
+}
+.scheme6{
+    background-color: violet;
+    color: teal;
+}
+.scheme7{
+    background-color: ;
+}
+.scheme8{
+    background-color: maroon;
+    color: #3d7837;
+}
+
+.scheme1, .scheme2, .scheme3, .scheme4, .scheme4, .scheme5, .scheme6, .scheme7, .scheme8{
+    padding: 10px;
+    gap: 0px;
+    margin: 0px;
+    font-size: 20px;
+}
+
+.darkMode{
+    background-color: black;
+    color: white;
+    animation-name: darkMode;
+    animation-duration: 2s;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+
+.highlight{
+    text-decoration: underline;
+    font-weight: bold;
+    animation-name: highlight;
+    animation-duration: 2s;
+}
+
+.expanded{
+    width: 100%;
+    font-size: larger;
+    animation-name: expanded;
+    animation-duration: 2s;
+}
+
+
+.rotate{
+    transform: rotate(15deg);
+    animation-name: rotate;
+    animation-duration: 2s;
+}

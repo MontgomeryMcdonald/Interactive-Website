@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body" class="dark">
+    <header>
+        <h1>INTERACTIVE WEBSITE - MAGIC CIRCUS!</h1>
+    </header>
+    
+    <main>
+        <h3>Mario's Magic Circus!</h3>
+        <div id="p1">
+            <p onclick="randomize('p1')">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nam explicabo deleniti, vero qui maxime earum deserunt hic a excepturi doloremque accusantium ea atque autem nostrum culpa? Cupiditate eveniet temporibus, labore quos facilis modi harum odio alias quia. Adipisci fugiat, quaerat voluptatibus atque alias obcaecati cum dolor placeat in quisquam!</p>
+        </div>
+        <div class="p2">
+            <p id="p2" onclick="randomize('p2')">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sequi magni sunt tempore consequatur hic doloribus, quia accusantium quasi dolorum repudiandae suscipit nihil deserunt, aut deleniti! Aperiam mollitia qui deleniti, in nulla tempora dignissimos. Quo iste sed nihil doloribus dolor.</p>
+        </div>
+        <div class="p3">
+            <p id="p3" onclick="randomize('p3')">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores ex quisquam ea accusantium officia quibusdam hic ut veritatis est odio molestias alias aspernatur, aliquid error obcaecati. Vel, voluptates cumque natus dolore quod esse sed, fuga nam tempora, quam nulla laborum illo iusto earum cum veritatis molestiae beatae eaque. Soluta impedit quibusdam alias. Ipsa reprehenderit nobis laboriosam dicta eos? Consequuntur tenetur ipsum eum rem, repudiandae esse architecto recusandae quaerat, modi ut eaque voluptate non iste consequatur natus minus alias, quo ab voluptatum nisi. Dolore animi quaerat sapiente. Magni ipsa illo totam error distinctio similique, voluptas quae laudantium perspiciatis nostrum recusandae, temporibus minus! Quaerat aut fugit minus asperiores maiores temporibus repellat facilis error dolores unde nulla, dicta quam neque accusantium eos dolor rem vel repellendus quis officia ullam. Repellat unde deserunt, ab animi iusto non quod inventore aliquam tempore temporibus assumenda minima, quos nobis. Qui voluptas quidem error recusandae eaque, totam voluptatum ea officiis cupiditate aliquid facilis repellendus ipsa reiciendis, nemo sed illum modi vitae alias natus veritatis dolorem reprehenderit. Perferendis veniam molestiae voluptates itaque quasi deleniti similique facilis suscipit repudiandae? Veniam cumque consequatur vel aperiam, velit nulla labore similique illo quam accusantium impedit mollitia a, expedita amet molestiae at. Est, unde.</p>
+        </div>
+        <div class="p4">
+            <p id="p4" onclick="randomize('p4')">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est quibusdam non consequuntur delectus corporis. Natus distinctio aliquid tempore incidunt, nemo optio numquam inventore vel, rem eum, dolore harum enim ipsum excepturi dicta. Aliquid, aut omnis voluptatibus odio iure iste earum accusamus sed cum odit vero enim quidem dolor aperiam molestias necessitatibus. Suscipit mollitia eveniet obcaecati voluptatum explicabo dolorem vero, odit magnam harum. Dolores nemo nihil tenetur error porro necessitatibus eveniet incidunt velit. Perferendis nobis corporis sequi molestias quod officiis nisi ab assumenda consequuntur voluptate. Beatae corporis tempora suscipit, deserunt numquam ex, quo modi ea repellendus ducimus cum ipsa. Aperiam iusto earum voluptas ea quia hic ab aliquam? Doloribus magnam laudantium reprehenderit! Nam error laboriosam saepe maiores, sint ad vel, veniam reiciendis exercitationem deleniti provident quidem reprehenderit? Accusamus quis corrupti recusandae. Possimus exercitationem qui numquam, repellendus veritatis aliquid quia commodi praesentium molestias ipsa error impedit consequatur itaque aliquam deleniti suscipit vel?</p>
+        </div>
+        <fieldset>
+            <legend>Styling Toggles</legend>    
+            <button onclick="toggle('none')">None</button>
+            <button onclick="toggle('darkMode')">Toggle Dark Mode</button>
+            <button onclick="toggle('highlight')">Highlight Mode</button>
+            <button onclick="toggle('expanded')">Expanded Mode</button>
+            <button onclick="toggle('hidden')">Hidden Mode (show picture)</button>
+            <button onclick="toggle('rotate')">Rotate</button>
+        </fieldset>
+        <br>
+        <img src="https://cdn.britannica.com/05/5105-050-4BD5D42D/West-Indies.jpg" alt="a map of the west indies" width="100px" height="100px" id="image" class="hidden">
+    </main>
+
+    <footer>
+        <p>open 9-5 every weekday! come on in!</p><a href="tel:+999-888-999">999-888-999</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
